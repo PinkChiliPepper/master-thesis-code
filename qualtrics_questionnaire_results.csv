@@ -1,0 +1,461 @@
+Permission,Participant ID,Gender,Age,Education,Education_7_TEXT,isIT,isIT_3_TEXT,Student,TotalExp,IndusExp,FamCopilot,FamJS,Glasses,Familiar A,approachesA,Familiar B,approachesB,queue,stack,linked-lists,sets,multi-array,tree-graph-struct,recursion,tree-graph-algo,dynamic-pr,greedy,sorting,WithoutCopilot,WithCopilot,First,Second
+"By clicking the button below, I give permission for my data to be collected and processed anonymously. I acknowledge that my participation in this study is voluntary, and I am aware that I may choose to terminate my participation at any time for any reason.","Participant ID
+
+To be filled in by the researcher",What is your gender?,In which age range would you place yourself?,What is your highest completed level of education? - Selected Choice,What is your highest completed level of education? - Other - Text,"Is your highest completed level of education in the IT field? (Computer Science, Software Engineering, AI etc.) - Selected Choice","Is your highest completed level of education in the IT field? (Computer Science, Software Engineering, AI etc.) - Other - Text",Are you a student?,"How many years of programming experience do you have in total? (hobby, school, industry, etc.)",How many years of programming experience do you have in the industry?,How familiar are you with using GitHub Copilot?,How proficient are you with writing JavaScript code?,"Are you wearing glasses today?
+This is related to the performance of the eye tracker. You can answer no if you are wearing contact lenses.","Time is up!
+
+  
+  
+  Your browser does not support the audio element.
+
+
+
+Were you familiar with the problem prior to the experiment? (Task A)","Write down as many different approaches to solving the 'Roman to Integer' problem as you can think of.
+
+
+
+After 5 minutes, you hear the bell. Then, take time to elaborate on the approaches you just came up with. After you finish elaborating on your approaches, press next.","Time is up!
+
+  
+  
+  Your browser does not support the audio element.
+
+
+
+Were you familiar with the problem prior to the experiment? (Task B)","Write down as many different approaches to solving the 'Valid Parentheses' problem as you can think of.
+
+
+
+After 5 minutes, you hear the bell. Then, take time to elaborate on the approaches you just came up with. After you finish elaborating on your approaches, press next.",Have you worked with a queue before?,Have you worked with a stack before?,Have you worked with linked lists before?,Have you worked with sets  before?,Have you worked with multidimensional arrays (e.g. 2D array) before?,Have you worked with tree or graph structures (e.g. binary trees) before?,Have you worked with recursion before?,Have you worked with tree or graph algorithms (e.g. DFS and BFS) before?,Have you worked with dynamic programming before?,Have you worked with greedy algorithms before?,"Have you worked with sorting algorithms (e.g. quicksort, heapsort, insertion sort) before?",WithoutCopilot,WithCopilot,First,Second
+"I consent, begin the study",1,Male,18 to 24,Research university / Wetenschappelijk onderwijs (WO) - Bachelor (BSc),,Yes,,Yes,4 to 6 years,1 to 3 years,Never used it,Comfortable,No,Never seen it before,"Digit by digit (numeral by numeral): maybe it's possible to parse the input numeral by numeral, keeping track of the preceding two (since weird dialect) parsed numerals. Then at some point you ""lock in"" the parsed digit? Not sure.",Never seen it before,"Parse first char in input, search for first matching char, then remove the matched pair from the input. Continue until input is empty or return false? Not really that different from the solution I (read: copilot) submitted.
+
+Search for a sequence of (), [] or , &lt;/&gt; and when found remove it from the input. Continue until input is empty or return false?
+
+
+
+
+
+","Yes, and I remember how it works","Yes, and I remember how it works",No,"Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works",No,"Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore",A,B,A,B
+"I consent, begin the study",2,Male,18 to 24,University for applied sciences / Hoger beroepsonderwijs (HBO)  - Bachelor (BSc),,Yes,,Yes,4 to 6 years,1 to 3 years,Never used it,Comfortable,No,"Seen it before, but never solved it","Creating a list of if statements that checks for each special case and then a switch case for all normal cases (naive approach).
+
+Create a stack where we push each numeral that can have a special case, peek at the next character and check if the combination forms a special case.
+
+
+
+",Never seen it before,"Loop through a string and check for each character if it is valid using if statements and maintaining a state (kind of like a parser).
+
+Create a tokenizer and then check if the syntax is valid.
+
+Create a stack where we push on the parantheses and check if they are properly closed.
+
+Create a regular expression.
+
+","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works",No,No,"Yes, and I remember how it works",A,B,B,A
+"I consent, begin the study",3,Male,18 to 24,University for applied sciences / Hoger beroepsonderwijs (HBO)  - Bachelor (BSc),,Yes,,Yes,6 to 10 years,1 to 3 years,Never used it,Familiar with basic syntax,No,"Seen it before, but never solved it","Elements on the left are subtracted from the largest right most elements, and vice versa. For example: ""IV"" one is subtracted from five because one is on the left and five is the largest element. ""XII"" results in 12 since 2 is added to 10 because 10 is the largest element.","Solved it before, do not remember how I solved it","1. Use a stack. For every element in the string, add it to the stack. If a closing element if found, pop the stack. if the stack is not empty after iterating trough the string, it is invalid.
+
+2. Make a parser that parses the string using a grammar.
+
+",No,"Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore",B,A,A,B
+"I consent, begin the study",22222222,Female,45 to 54,Research university / Wetenschappelijk onderwijs (WO) - Bachelor (BSc),,Other,,Yes,6 to 10 years,1 to 3 years,Tried it before,Comfortable,,"Seen it before, but never solved it",,,,,,,,,,,,,,,,,,
+"I consent, begin the study",4,Male,18 to 24,Research university / Wetenschappelijk onderwijs (WO) - Bachelor (BSc),,Yes,,Yes,4 to 6 years,Less than 1 year,Tried it before,Familiar with basic syntax,Yes,Never seen it before,"1. make use of a dictionary and traverse the input string
+2. traverse the string and tokenize each character and use if statements
+3. make use of multiple Roman numeric combinations and match on these
+",Never seen it before,"1. Use a stack to keep track of the brackets
+2. Use a queue to keep track of the brackets
+3. Use a string to keep track of the brackets
+4. Make use of a map to store the brackets and delete them on appearance
+","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, and I remember how it works",A,B,A,B
+"I consent, begin the study",5,Male,35 to 44,Master (MSc),,Yes,,No,4 to 6 years,None,Never used it,Familiar with basic syntax,No,Never seen it before,"Take inputstring
+
+method 1:
+regex strip verschillende delen naar tellerniveau (M, D, C, V, X, I) incl uitzonderingen (I of II prefix)
+vertaal diverse onderdelen naar cijfer
+
+method 2: 
+vervang elk enkel character door de equivalent in numeriek systeem met een + of - ervoor afhankelijk van de positie van het karakter (I of C voor zijn voorligger is een min, anders een plus)
+
+ ",Never seen it before,"ontvang String die je wilt checken in hoofdfunctie
+call: functie check samenstelling String op karakterset
+   return false bij invalid karakters
+call: functie op samenstelling string (logica karakters)
+   variant 1: levels van nesting bepalen
+          check sluitkarakter is gelijk aan startkarakter op ""zelfde niveau""
+   return true slaagt op elk niveau / false alle anderen
+  
+   variant 2: doorloop string en exit bij falen (karakter is niet toegestaan, want daarmee foute volgorde van karakters
+
+start met string die je wilt checken
+","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, and I remember how it works",A,B,B,A
+"I consent, begin the study",6,Male,18 to 24,Research university / Wetenschappelijk onderwijs (WO) - Bachelor (BSc),,Yes,,No,6 to 10 years,1 to 3 years,Never used it,Familiar with basic syntax,No,Never seen it before,"als de romeinse getallen hetzelfde zijn kan je deze bij elkaar optellen als vervolgens het volgende getal groter is kan je de vorige van elkaar af halen, anders moet je deze ook bij elkaar optellen. 
+
+er is een selecte lijst aan combinaties die van elkaar af gehaald kunnen worden als je deze in een grote lijst zet en daar IIX aan toe voegd kan je controleren of de input in deze lijst voorkomt voor de rest is het een grote optelsom",Never seen it before,"make a list of opening parentheses and check if the last value is closed first if at the end the list is empty the string is correct
+
+","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works",No,No,"Yes, but I do not remember how it works anymore",B,A,B,A
+"I consent, begin the study",7,Male,18 to 24,Research university / Wetenschappelijk onderwijs (WO) - Bachelor (BSc),,Yes,,No,11+ years,4 to 6 years,Have been using it for a while (>3 months),Comfortable,Yes,Never seen it before,"Deze is echt tricky, denk dat je iets kan doen met substrings waar je constant de grotere getallen eruit haalt tot je een getal tegenkomt wat groter is dan je gewend bent en dan ga je weer terug in de loop om af te trekken ipv op te tellen.",Never seen it before,"1. Replace('[', '').replace(']','').etc.etc functies gebruiken (correct voor elke combi aan parentheses) om constant de eerste char en de laatste (2) char(s) weg te halen, tot er een exception optreedt (isValid === false) of je een lege string hebt (isValid === true). Splice is trouwens beter.
+2. Recursief de buitenste 1/2 char(s) van het uiteinde halen en kijken of de binnenkant leeg (valid) of niet leeg (invalid) of weer recursief (doorgaan). Dit werkt echter niet goed met zaken als ([][]), mijn oplossing wel ;)
+
+Denk wel dat mijn oplossing de beste is want die kan dus wel die ([][]) aan.","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works",No,No,"Yes, and I remember how it works",A,B,B,A
+"I consent, begin the study",8,Male,25 to 34,Master (MSc),,Yes,,No,6 to 10 years,6 to 10 years,Tried it before,Familiar with basic syntax,No,Never seen it before," - Regex -&gt; in plaats van lijsten en loopen regexes gebruiken om de tegallen te vinden en optellen
+ - Grote tabel met alle mogelijk romeinse getallen en bijbehorende latijnse getallen
+ - Door de input heen loopen, steeds 1 vooruit kijken om de 'dubbele' getallen te vinden, en anders op te tellen
+ - library hiervoor installeren
+ - kijken of er een standaard `cast` functie is in javascript","Seen it before, but never solved it"," - regexes to match valid or invalid strings
+ - for loops met iets andere matching mechanismes
+ - sanity check om aantallen (haakjes) te testen
+ - type haakes omschrijven naar integers, dan met een berekening uitrekenen of de haakjes goed uitkomen","Yes, and I remember how it works","Yes, and I remember how it works",No,"Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, but I do not remember how it works anymore",No,"Yes, but I do not remember how it works anymore","Yes, and I remember how it works",A,B,A,B
+"I consent, begin the study",9,Male,18 to 24,Research university / Wetenschappelijk onderwijs (WO) - Bachelor (BSc),,Yes,,Yes,4 to 6 years,1 to 3 years,Tried it before,Comfortable,No,"Seen it before, but never solved it","Checking the next character in the roman string and calculating the correct number
+
+Creating cases for every possibility (not that many) and iterating the string  assuming it has a correct format
+
+","Seen it before, but never solved it","Generating a tree of opening and closing brackets 
+Create a tree with the opening and closing brackets, this is very similar to compiler construction/ASTs. First get the opening bracket. Than keep checking the next item to see if it is an opening bracket which needs to be closed.
+
+Checking the order of possible followups (so for example &lt; cannot be followed by ])
+Opening brackets cannot be directly followed up by closing brackets. If this is correct we should also check if every bracket is closed.
+
+Counting the amount of opening and closing brackets to see if it corresponds
+All opening brackets should have a corresponding closing bracket
+
+Finding the next corresponding closing bracket, counting the opening brackets
+For every opening bracket. Find the first corresponding closing bracket. If you find the same opening bracket. Skip the first corresponding closing bracket. If you have found the correct corresponding closing bracket, check the inner part of the string.
+","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works",No,"Yes, but I do not remember how it works anymore","Yes, and I remember how it works",B,A,B,A
+"I consent, begin the study",10,Female,18 to 24,University for applied sciences / Hoger beroepsonderwijs (HBO)  - Bachelor (BSc),,Yes,,Yes,4 to 6 years,Less than 1 year,Never used it,Familiar with basic syntax,No,Never seen it before,"1. you can iterate through the values in groups of 3, one case would still be the 8 and the others would be another iterator that checks if the following value is superior and so on. so basically a loop by 3, with an if for the 8 and in the else condition another loop that checks the order.
+
+2. the same code i had before but instead of checking if a value is inferior, we have the one which is superior, so instead of substracting, we add in the else if statement. the 8 conditions stays the same
+
+3. you can have in the roman data structure all the combinations of 3 roman numbers and use those in the iterators",Never seen it before,"1. you can do it the second way i did, with finding the first character and then iterating through all the string to find the final character. for isntance ( and )
+
+2. you could try the first way i did and assign values to the characters so the wrong combination of numbers would not give 0. in this case you need to be careful of /&gt; and also need to find a way to work with longer strings, this way youcannot understand order well so extra conditionals are needed
+
+3. you could create a matrix that stores whenever a initial character is found and which position and the same for final characters. then go through the matrix and check if the initial character has a final character in a superior position
+
+4. ","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, and I remember how it works",B,A,A,B
+"I consent, begin the study",11,Female,18 to 24,Research university / Wetenschappelijk onderwijs (WO) - Bachelor (BSc),,No,,Yes,1 to 3 years,None,Never used it,Familiar with basic syntax,No,Never seen it before,"Check position of largest possibility and check what's in front
+Start with an initial counter of 0. Find the position(s) of the letter representing the largest possible number, which is M (1000). Add 1000 to the counter for each M. Then calculate how many C's are in front based on the position of the first M and substract the relevant amount. Remove everything up to and including the M(s) from the numeral. Repeat for the other letters. (This could all be implemented in a helper function to not have to copy the code several times)
+
+Go from end to front and calculate
+Start at the end of the numerall and add everything to a counter variable. Keep track of the last letter you added. If you find a letter that is 'smaller' than the previous, substract instead of add.
+
+Match string patterns
+Start from the front and check for all relevant string combinations including M (MMM, MM, M, CM) and match with correct value. Repeat for other letters.",Never seen it before,"Use stack to push and pop parentheses
+As you go through the string push opening parentheses on a stack. when you a closing parenthesis, check if it matches the item on top of the stack. If so, pop it, otherwise return false. Do this until you considered all characters.
+
+Keep track of position of parentheses
+For each pair of parenthesis, note down the positions. Then go over all the numbers and check if all pairs do not cross (one can be enclosed in another though).
+
+Keep counters for each type of parenthesis. This does not cover the problem of them being in the right order, but can be used to determine if all opening brackets have closing ones.
+","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, and I remember how it works",A,B,B,A
+"I consent, begin the study",12,Male,25 to 34,Research university / Wetenschappelijk onderwijs (WO) - Bachelor (BSc),,No,,Yes,1 to 3 years,None,Never used it,Little to no prior experience,No,Never seen it before,"Loop over every letter in the roman numeral, if 'I' comes up, check if a V or X is behind it. Same for V and C and L and C for D (I don't remember it exactly anymore) Hardcode 8 when IIX is found.
+
+Work backwards. Keep track of when I's are found for the V's and X's, V's for C's and L's etc.
+
+",Never seen it before,"Add the opening parantheses to a list, whenever a closing parantheses comes up, check if the last opening paranthesis that you added is the opening parantheses that corresponds to the closing one.
+
+Add paranthesis to dictionary with corresponding index nrs.
+
+After every opening parantheses should be another opening paranthesis or a closing parantheses of the corresponding opening parantheses.
+
+
+
+","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, and I remember how it works",No,No,"Yes, but I do not remember how it works anymore",B,A,B,A
+"I consent, begin the study",13,Male,18 to 24,University for applied sciences / Hoger beroepsonderwijs (HBO)  - Bachelor (BSc),,No,,Yes,1 to 3 years,None,Never used it,Little to no prior experience,No,Never seen it before,"Parse the string from front to end. Add numeric value of current character if it is lower than the previously parsed character. Otherwise, reduce numeric value of current character.
+
+Pattern matching for every roman numeral that consists out of more than one type of character.
+
+","Solved it before, remember how I solved it",Parse string reverse; if you see opening parenthesis remove from string; parse from this index to end of string; check if first closing parenthesis concurs,"Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works",No,No,"Yes, but I do not remember how it works anymore",B,A,A,B
+"I consent, begin the study",14,Female,18 to 24,Research university / Wetenschappelijk onderwijs (WO) - Bachelor (BSc),,Yes,,Yes,4 to 6 years,1 to 3 years,Never used it,Familiar with basic syntax,No,Never seen it before,"1. We can create dictionary to refer back and compare the given input.
+2. We can use the recursive approach where we check if a given number is below the provided theresholds, subtract from the thresholds and then evaluate the remaining by calling the converter function again.
+3. We can do the opposite of number 2, check whether numbers are greater and start by adding towards to the provided theresholds and calling back the converter again.
+4. We can provide a text analyser. Instead of reading actual numeric values, we can scan the textual representation of roman literals to convert back and forth to numeric literals.
+5.
+","Solved it before, remember how I solved it","1. The first approach is what copilot suggested me: to use stacks. As you read paranthesis you push them to the stack and once you reach out closing paranthesis you pop the head of the stack out and check if they match.
+
+2. We can count the number of paranthesis and if not equal immediately return false. This solution does not check whether the returning paranthesis is the correct match.
+
+3. There is a tree traversal approach, an algorithm which I don't remember the details about, but can also be used for the solution of this problem.
+
+","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works",A,B,A,B
+"I consent, begin the study",15,Male,18 to 24,Research university / Wetenschappelijk onderwijs (WO) - Bachelor (BSc),,Yes,,Yes,4 to 6 years,1 to 3 years,Have been using it for a while (>3 months),Comfortable,No,Never seen it before,"- use regex to match numbers from bigger to smaller 
+
+- translate all letters to their numerical value, but substract smaller that appear in front of bigger numbers
+
+",Never seen it before,"- Take the string and check for a starting paranthesis. If any of them is a match, look for the closing paranthesis after the index of the starting one. If there is another starting paranthesis between them, then the string is not valid. If both are found to ba valid, remove both from the string and repeat the process. if at the end you are left with nothing, then the string is valid.
+","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works",A,B,B,A
+"I consent, begin the study",16,Male,25 to 34,Research university / Wetenschappelijk onderwijs (WO) - Bachelor (BSc),,Yes,,Yes,4 to 6 years,None,Never used it,Comfortable,No,"Seen it before, but never solved it","iterate over a string, replace every roman numeral with a number and push into an array, sum the array
+
+generate an array of 2 objects consisting of first 1 million roman numerals and their numerical equivalent, use search function to find the matching pair, assume noone else would want to write numbers higher than 1 million in roman numerals",Never seen it before,"Use regex, there is a regex solution to every problem.
+Use tokens, iterate over the string and tokenise every type of bracket in the order of appearance, then check whether each token has a correct number of counter-parts.
+Use pattern matching","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, and I remember how it works",No,No,"Yes, and I remember how it works",No,No,No,"Yes, and I remember how it works",B,A,B,A
+"I consent, begin the study",17,Male,18 to 24,University for applied sciences / Hoger beroepsonderwijs (HBO)  - Bachelor (BSc),,Yes,,Yes,6 to 10 years,4 to 6 years,Tried it before,Highly proficient,Yes,"Seen it before, but never solved it","Use regex to get the unique tokens
+Create a lexer to get the unique tokens. Uses regex under water but is better tested.
+Reverse the string and look at if the previous character was worth more. If that is the case this character subtract the character.
+Use a look ahead in order to determine if this character is the lowest one
+Add the direct mapping of the character to the number. Than use a method to determine how many characters are calcualted too much. Subtract double of that amount.
+Create a huge mapping that is directly from entire roman number to int. If a roman number is not found. Itterate until you find it. This is a very bad solution
+Use a library because that is what you would do in the real world
+","Solved it before, do not remember how I solved it","Use a stack to pop the latest used parenthesis
+Use regex in order to validate the tokens
+Use lexer, which also uses regex but has more validation
+Use a recursive function by removing the first and the last character and passing the new string to itself
+Use a library that is probably available in the NPM ecosystem
+","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore",No,"Yes, but I do not remember how it works anymore","Yes, and I remember how it works",A,B,A,B
+"I consent, begin the study",18,Male,18 to 24,Research university / Wetenschappelijk onderwijs (WO) - Bachelor (BSc),,Yes,,Yes,1 to 3 years,Less than 1 year,Never used it,Little to no prior experience,No,Never seen it before,"1.Map each roman string to a number and then conditionally check for each one of the cases
+
+2. Make an algorithm that uses something like a multiplication table for transforming the roman letters to integer with operations like multiplication or summations 
+
+3. Another solution would be to take the roman letter and  compose first the integer components 
+
+In this approach we will have a string with the roman letters and based on a dictionary with all the basic number of 1,5,10,50 etc, we will first try to extract each individual number from the roman letters in the string. Then we will try to add them in order to make the final sum of the integer that we would like to return. For the special case of 8, it is easy to account for, using a conditional that checks whether the string contains either IIX or VIII, and provide the defintion of 8. Then we would say first take all these numbers that make either IIX or VIII and remove them from the string and then add the rest of them.
+
+","Solved it before, do not remember how I solved it","1. Identify independently each case and then try to combine them
+","Yes, but I do not remember how it works anymore",No,"Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore",B,A,A,B
+"I consent, begin the study",19,Male,25 to 34,University for applied sciences / Hoger beroepsonderwijs (HBO)  - Bachelor (BSc),,Yes,,Yes,4 to 6 years,1 to 3 years,Tried it before,Familiar with basic syntax,No,Never seen it before,"1. loop over string -&gt; split into substrings matching 'i' 'iv' 'iiv' 'v' 'ix' 'x' 'xl' 'xc' 'l' 'c' 'cd' 'cm' 'd' 'm'. count up array with number value of letters.
+
+2. same as one but directly translate letters to numbers.
+
+3. loop over array -&gt; count tmp number (add) -&gt; when finding bigger number (e.g. IV) subtract tmp number from big number and add results to output || when smaller number is seen (XV) add number to output -&gt; start counting at tmp again.",Never seen it before,"1. loop over input -&gt; keep track of opening strings -&gt; when a closing string is encountered see if it corresponds to the last opening string encountered. if not return false, else return true at end of input.
+
+2. regex. if available in js?
+
+did order of matching input str to closing string and open string match to closing in wronf order so may give wrong results. Got the wrong solution from copilot and in a hurry I did not dubble check.","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, and I remember how it works",No,"Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore",A,B,A,B
+"I consent, begin the study",20,Male,18 to 24,Research university / Wetenschappelijk onderwijs (WO) - Bachelor (BSc),,Yes,,Yes,4 to 6 years,4 to 6 years,Never used it,Comfortable,No,Never seen it before,"1. Direct replacement of IIX as 8
+CoPilot generated a RomanToNumeral function, which we could have adapted slightly by using .replace(""IIX"", """"). If there was an occurence, add 8 to the total sum.
+2. Add IIX as a key of the Romans
+Some CoPilot solutions used a dictionary (object) to represent characters to numerals. We could have added 'IIX' in the dictionary such that we did not have to use a manual replacement as in Option 1.","Solved it before, do not remember how I solved it","1. Het gebruiken van Recursion
+In plaats van alle parentheses op te slaan in een array, zou er hier ook gebruikt gemaakt kunnen worden van Recursion. We loopen door de string, en wanneer we een karakter (, [ of &lt; tegenkomen, zouden we het gedeelte daarna als een parameter meegeven in de zelfde functie (en dus recursie)
+2. Het gebruik maken van een stack
+Loopen door de string, en alle begin karakters (, [, &lt;  opslaan in een stack met .push(). Als we bij een ), ], /&gt; karakter komen, dan kijken of het laatste element matcht met een begin karakter.","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore",B,A,B,A
+"I consent, begin the study",21,Male,18 to 24,University for applied sciences / Hoger beroepsonderwijs (HBO)  - Bachelor (BSc),,Yes,,Yes,4 to 6 years,1 to 3 years,Never used it,Comfortable,Yes,Never seen it before,"1. In the approach taken, the string was split into words by splitting the strings by spaces and iterating over each ""word"" to check whether it is a number, the exception of IIX is handled first if the word is not an exception the calculation would be done, this solution was not complete and required to check if the word is an actual number or not due to the possibilty of having non number words
+
+2. Regex can also be used to covert the number however this would possibility greatly reduce readability and increase complexity
+
+3. The string can be analysed per character and checked whether a character belongs to the values such as I, V, X, L , C and M, if they do the convertion would start and lookup to the characters ahead of this character and the total number is summed up
+","Solved it before, do not remember how I solved it","1.  The types of brackets can be defined in the code and the number of brackets can be counted from the string, if the number of open to closed are not the same then extra validaiton can be made of the string to check if the all the open brackets are closed
+
+2. Each character in the string can be iterated over and if the character is equal to a type of bracket the char is stored in an array. The array can be validated to determine whether the brackets are opened and closed appropriated by iterating over each element in this array
+
+3. Regex can be used on the string to make sure the brackets close after each appropriate opening bracket.","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, but I do not remember how it works anymore",No,No,"Yes, but I do not remember how it works anymore",A,B,B,A
+"I consent, begin the study",22,Male,25 to 34,Master (MSc),,Yes,,Yes,4 to 6 years,1 to 3 years,Never used it,Little to no prior experience,No,Never seen it before,"1) Using sum counter and iterating through each letter (assuming the input is a string array) from left to right  
+2) Using sum counter but and iterating through groups of letters (e.g. 2 by 2, or 3 by 3)
+","Seen it before, but never solved it","1) Use an extra array and perform all checks at the end
+2) Perform checks after each character in iterations
+3) Double pointers: One at the end and one at the start of the input string and perform check simultaneously  ","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, and I remember how it works",B,A,A,B
+"I consent, begin the study",23,Male,18 to 24,Research university / Wetenschappelijk onderwijs (WO) - Bachelor (BSc),,Yes,,Yes,6 to 10 years,1 to 3 years,Never used it,Highly proficient,No,Never seen it before,"Use regex to find patterns in the string, and return appropriate numbers based on matching. 
+
+Find ""pivoting"" roman numeral and substract numerals before, add numerals after.  
+
+Interject math operations based on numeral position in string, then parse string with appropriate operations using a function to convert into integers. 
+
+Convert roman numerals into an array, sum elements in array from end to start. If current numeral is bigger or equal to previous add them to the sum, if less than substract from the sum. ",Never seen it before,"Use a regex matcher that checks if every parenthesis is closed and that there are no inappropriate parenthesis between (order is correct). 
+","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, but I do not remember how it works anymore",A,B,A,B
+"I consent, begin the study",24,Male,18 to 24,Research university / Wetenschappelijk onderwijs (WO) - Bachelor (BSc),,Yes,,Yes,4 to 6 years,None,Never used it,Comfortable,No,"Seen it before, but never solved it","By using a library that converts roman numerals to integers (if this exists).
+Using a regular expression, but since I am not experienced with regular expressions I have no idea how to do this.","Solved it before, do not remember how I solved it","By looping over the string characters and counting the number of occurrences for each parentheses type, the number of opening and closing parentheses should be equal for each type at the end. Also there can't be a closing bracket in the string if the current number of closing brackets is smaller than the number opening brackets.
+By validating the string using a regular expression that makes sure the parentheses match.
+By using a library that checks if parentheses in strings match.
+","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works",No,"Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore",B,A,B,A
+"I consent, begin the study",25,Male,18 to 24,University for applied sciences / Hoger beroepsonderwijs (HBO)  - Bachelor (BSc),,Yes,,Yes,4 to 6 years,1 to 3 years,Never used it,Comfortable,No,"Seen it before, but never solved it","1. Parse nummer naar string (NumStr)
+2. Reverse NumStr, zodat je kan berekenen of het enkele, tientallen, hondertallen zijn (depth), daarnaast lees je romeinse tekens van groot naar klein
+3. Zet depth op 0
+4. Maak een lege string waarin het romeinse getal wordt opgeslag (RomanStr)
+3. Loop over de reversed NumStr:
+   3.a. ga na welk getal er staat
+   3.b. bereken aan de hand van de diepte of het enkele, tientallen, of hondertallen, etc bedraagt en genereer hier een getal voor. Houd rekening met 4 en 9, en hun tiental, hondertal, etc
+   3.c. Voeg deze vooraan toe aan RomanStr
+   4.d. Ga door naar het volgende getal
+   ","Solved it before, remember how I solved it",,"Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works",No,"Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore",A,B,B,A
+"I consent, begin the study",26,Male,18 to 24,University for applied sciences / Hoger beroepsonderwijs (HBO)  - Bachelor (BSc),,Yes,,Yes,4 to 6 years,Less than 1 year,Never used it,Little to no prior experience,No,Never seen it before,"Create an array that includes the roman numbers, and check if the number in the parameter is present. Add a specific case for the number 8. If it isn't check if other numbers can calculate the number in the parameter and print the result. 
+
+Create threshold brackets that contain a certain amount of numbers which translate to the same kind of roman number, add a specific case for the number 8, and then check if the parameter falls into the bracket, to print accordingly. 
+
+",Never seen it before,"Loop through the string to see if a start bracket is present, if it is correct, check if it is closed, and properly closed without interference of other brackets. Print result accordingly.
+
+
+
+","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, but I do not remember how it works anymore",No,"Yes, but I do not remember how it works anymore","Yes, and I remember how it works",B,A,A,B
+"I consent, begin the study",27,Male,18 to 24,Research university / Wetenschappelijk onderwijs (WO) - Bachelor (BSc),,Yes,,Yes,11+ years,Less than 1 year,Never used it,Familiar with basic syntax,Yes,Never seen it before,"a stack-based automaton
+a recursive descent parser with 2-lookahead
+a recursive approach (instead of iterative)
+a backtracking parsing solution (scale back value when lookahead mistake encountered)
+write a web platform that queries cheap laborers to solve the problem manually and returns the solution
+offer the problem to another software engineer
+a statistical analysis approach
+a neural network approach
+brute force: go over every possible value until the user confirms the correct one
+solve the problem using logic programming (prolog)
+write a prolog compiler in javascript and use it to solve the problem
+use a genetic algorithm to train procedures using fitness
+use a reinforcement learning approach to do the same thing
+write 10 different unique functions to solve extremely tiny parts of the problem and compose them together
+write an integration with a pretrained deep learning system to query responses","Solved it before, remember how I solved it","recursive descent approach
+array with counters (counter per type of bracket)
+single stack
+outsource to human validation
+use a library
+solve the problem using recursive descent from right to left
+","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works",A,B,A,B
+"I consent, begin the study",28,Male,25 to 34,Research university / Wetenschappelijk onderwijs (WO) - Bachelor (BSc),,Yes,,Yes,4 to 6 years,None,Have been using it for a while (>3 months),Familiar with basic syntax,No,Never seen it before,"create a hashmap for the different tokens and use that to look up the values, with a special case for considering the past 2 numbers 
+
+start off by running through the entire number, looking for the special case, account for it, remove it, process as normal roman numeral
+
+start by tokenizing the entire string into an array of roman numerals, looking at the past two and if you find IIX you replace the last two numerals with 8, then sum the array",Never seen it before,"tokenize each bracket, then recursively remove them from the string from the inside out, if you end up with an empty string it should be valid
+
+loop over, make sure that each bracket has a corresponding close, loop again to check if there are broken orders 
+
+outside in? starting outside, check if the match is on the other end, if not then check if it is in the next char slot, remove if you match, else return false, repeat until empty
+
+maybe I misunderstood but a case which complicates this a lot is ([]&lt;/&gt;)","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore",No,No,"Yes, but I do not remember how it works anymore",B,A,B,A
+"I consent, begin the study",29,Female,18 to 24,Research university / Wetenschappelijk onderwijs (WO) - Bachelor (BSc),,Yes,,Yes,4 to 6 years,1 to 3 years,Never used it,Comfortable,No,"Seen it before, but never solved it","- iterating over the string and checking against conditions for each letter -&gt; approach that i took, checking for each letter if it is I, X, or C, in which case the total amount had to be subtracted with I, X, C if the following letter was one of the ones that required that, and in other cases the amount was just increased with the value. (I used a map to get the corresponding numeric value to the letter). In the case of IIX, I checked against an extra condition where if I was followed by I and X, the total was also subtracted with I.
+- Using patterns -&gt; You could use a more extensive map that contains all the specific patterns (so not just the individual letters but also IX, IIX, XL etc.). This way, you can start looking for the largest patterns first, and remove those from the string. (IIX would be the biggest one in this case). You then look for the second biggest patterns in the remaining strings etc. 
+- probably a library -&gt; there are probably existing libraries for this issue, maybe only an exception would have to be made because of the IIX ","Solved it before, do not remember how I solved it","- Use a stack as the copilot suggested (i think this is how i solved it in my first year of uni)
+- Use regular expressions to define patterns that are allowed and check the string against this pattern
+- You can first count the number of each type of parenthesis: an uneven number should always result into a 'false' result
+- You can split the strings on parentheses, if
+
+str: (&lt;test/&gt;) ","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, and I remember how it works",A,B,B,A
+"I consent, begin the study",30,Male,18 to 24,Research university / Wetenschappelijk onderwijs (WO) - Bachelor (BSc),,Yes,,Yes,1 to 3 years,Less than 1 year,Never used it,Little to no prior experience,No,Never seen it before,"The approach used by Copilot revolved around iterating through the string character-by-character, deducing the current character if its less than the upcoming one, and adding it otherwise. 
+
+Another approach would be to initiate a hashmap, where every roman numeral seen is input as a key, and the corresponding integer forms the value for the key-value pair. Special cases (I preceding V&X + X preceding L&C...etc.) should also be accounted for. 
+
+ ","Solved it before, do not remember how I solved it","The approach I used was to implement a stack template, with every opening character 'pushing' the corresponding closing character in the implemented stack. Afterwards elimination of the closing brackets takes place, in case the stack empties earlier, or a mismatch occurs, we return with invalidity. Otherwise, we return with validity. 
+
+Another approach would be using a hash set and implementing a similar approach to the one I outlined above, with the exception that elimination will no longer occur, we will simply be checking for correspondence of every character as stated in the hash set (similarly, a hash map can also be used). 
+
+A third approach would be via implementing a vector template in Javascript as opposed to a stack, as they are both LIFO and would generate similar results. I have solved a similar problems a long time ago, but in C++ where I'm most comfortable.  ","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works",B,A,A,B
+"I consent, begin the study",31,Male,25 to 34,Master (MSc),,No,,No,Less than 1 year,Less than 1 year,Never used it,Familiar with basic syntax,No,Never seen it before,"nummer opsplitsen in tientallen, hondertallen etc en per categorie een numeral toewijzen. Per groep een serie If else statements schrijven om het juiste romeinse cijfer toe te wijzen, bijvoorbeeld 3426 opsplitsen in 3000, 400, 20, 6. dan word 3000 MMM + (400 = CD) etc.
+
+
+
+In plaats van een while loop een extra functie schrijven die hetzelfde doet (een numeral bij het antwoord optellen en het getal van het gegeven getal aftrekken) en die blijven callen tot het gegeven getal 0 is. Praktisch hezelfde als mijn oplossing nu maar dan met een andere syntax
+
+",Never seen it before,"Ik zou alle mogelijke opening and closing parentheses als verschillende variables kunnen opslaan, en .contains kunnen gebruiken om te controleren of str de opening parentheses bevat. dan met een If statement kan ik kijken of er ook closing parentheses zijn na de index van de opening parentheses.
+
+ik kan de string valideren met een RegEx.
+- RegEx is vrij onleesbaar, en lastig samen te stellen maar wel mega handig voor het valideren van een string
+
+",No,No,No,No,"Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore",No,No,No,No,A,B,B,A
+"I consent, begin the study",32,Female,25 to 34,Research university / Wetenschappelijk onderwijs (WO) - Bachelor (BSc),,Yes,,No,4 to 6 years,1 to 3 years,Never used it,Familiar with basic syntax,Yes,Never seen it before,"- checking the first value and if it is smaller than the next one, substracting them. If not adding up them to each other.
+
+- writing down all possible cases (the principals) that we need to do subs in a for loop and whenever we encounter them, we will write down the answer without doing the math.
+
+- making each value a symbol and doing the calculations whenever we encounter them.",Never seen it before,"- checking every character of the given string and storing the parenthesis in an array regardless they are closing or opening up. Finding the mid position and checking from left and right. (for /&gt; we need to check if the two chars are together and put one of them as a closing for &lt; to array).
+
+- checking every character of the given string and when we hit a special opening, storing it in a value. When we hit another one, if it is a closing, freeing the value we hold. if it is another opening chars, put it on the top of our stack.
+
+- we can count every type of opening that the string contains as well as the closing. If the numbers are matching, it is a true, if not it is a false. We need to check every individual characters, not only for opening or closing. We need to create a special check for /&gt; if the both symbols are together or not for counting them.","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works",No,"Yes, but I do not remember how it works anymore",A,B,A,B
+"I consent, begin the study",33,Male,25 to 34,University for applied sciences / Hoger beroepsonderwijs (HBO)  - Bachelor (BSc),,No,,No,11+ years,1 to 3 years,Have been using it for a while (>3 months),Comfortable,Yes,"Solved it before, do not remember how I solved it","- Using a dictionary that includes all Roman numerals and their corresponding decimal value:
+This is the same approach Copilot suggested, but with saving all the ""translations"" somewhere before running the loop.
+- Reading the Roman string in reverse:
+Then instead of keeping a lot of numerals in the memory (last and before last...), we can just keep the current ""stage"" in the reading.
+- First adding all numerals and then substract the numerals that need to be substracted: 
+this could make the calculations a bit easier.","Seen it before, but never solved it","- Create a stack of closing brackets, and make sure that they are found in that order in the string - each time checking a closing bracket char if it's the next one on the stack.
+- Gradually remove bracket pairs from the start and end of the string until it's empty.
+- Count the number of brackets before starting to validate each one, then use one of the approaches.
+- Search for the pairs of brackets from the inside out, it doesn't work if there are other characters in the string that are not brackets - by trying to replace the pairs of brackets with empty strings until the string is empty.
+","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works",No,"Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works",B,A,A,B
+"I consent, begin the study",34,Male,18 to 24,Master (MSc),,No,,No,1 to 3 years,1 to 3 years,Have been using it for a while (>3 months),Comfortable,No,"Solved it before, do not remember how I solved it","As the numbers are only up to the thousands from the requirements, it's possible to just brute force ifelse statements to check for whether the number are in 10s, 100s, 1000s (check for starting char and length). But put an if to catch for IIX.
+
+Use input length and a while loop to go through the characters and see if the previous one is higher or lower than the current number according to the map of numerals set and then add or substract the values accordingly.","Seen it before, but never solved it","Checking nearest parenthesis to see if it contains any other opening parenthesis (index 0) and if it does, check to see if the opened parenthesis is closed before the main parenthesis is closed.
+
+Create two pointers in the middle of the string after converting it to an array when the string is longer than 3 (meaning it is possible to have more than 1 set of parenthesis), and the left pointer will always check index -1 while right index +1 and work back to match all the parenthesis on left and right side.","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore",B,A,B,A
+"I consent, begin the study",35,Female,25 to 34,Master (MSc),,No,,No,Less than 1 year,Less than 1 year,Never used it,Little to no prior experience,No,Never seen it before,"
+
+Assign each roman to a value, when matching any of the special romans number (C, L, M) look for the previous one and handle in if conditions. Then in the result array look for any number that is matching 0 and pop it. And then reverse the order. 
+
+",Never seen it before,"Going through the array compare if any is similar with one of opening parentheses (previously assign in an array), if so check if the next character is the matching closing parentheses. To do that open 3 if conditions where we check the values of each one. 
+
+
+
+Similar with the first one but we open a array with all the character that matches a parentheses. After that we check if for each opening parentheses the next one has his matching closing parentheses. ",No,No,No,No,No,"Yes, but I do not remember how it works anymore",No,No,No,No,"Yes, but I do not remember how it works anymore",B,A,A,B
+"I consent, begin the study",36,Female,25 to 34,Master (MSc),,No,,No,1 to 3 years,Less than 1 year,Never used it,Familiar with basic syntax,Yes,"Seen it before, but never solved it","- Immediately turning each string of one or more characters into a number and add that to a total, instead of first adding them as a set of roman nummericals to the array and then turn it into numbers to take the sum of
+- Only having the 1-character strings in the dictionary, and use these to substract the numbers if necessary, instead of also adding the multi-character possibilities
+- Iterating over the string in sets of 3 if possible and see if there are any keys that exist in the dictionary, then in sets of 2 and then 1 and add these to the array of integers
+- Turn each individual char into a number and then substract if there is a smaller number before a larger number in the array
+",Never seen it before,"- split the sentence into brackets and characters first, and then check if the closing bracket is present at the end of the string with respect to the first opening bracket of the string
+- find and replace the closing brackets that are related to the first opening bracket and see if the end of the string has changed, remove the opening bracket if so, and continue until there are no more opening and closing brackets
+- go backwards and see of there is a corresponding opening bracket for the last closing bracket
+- check if there is a /&gt; as the final 2-character set to rule out if the closing bracket is a 2-character set and then match the first and the last character with the dictionary","Yes, but I do not remember how it works anymore",No,No,"Yes, and I remember how it works",No,No,"Yes, and I remember how it works",No,No,No,No,A,B,A,B
+"I consent, begin the study",37,Female,25 to 34,Master (MSc),,Other,Data Analytics,No,Less than 1 year,Less than 1 year,Never used it,Comfortable,No,"Seen it before, but never solved it",Always check if there are smaller roman numerals before a certain number. If so these need to subtracted from that number.,"Solved it before, do not remember how I solved it","1 You create an array to which you add each bracket that you find in the input string. Then you check for each opening bracket if there is a closing bracket and if so you remove it from the array. if the array is not empty, not all brackets are being closed.
+","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore",No,No,"Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, but I do not remember how it works anymore",No,No,"Yes, but I do not remember how it works anymore",A,B,B,A
+"I consent, begin the study",38,Male,25 to 34,High school / middelbare school,,No,,No,1 to 3 years,Less than 1 year,Have been using it for a while (>3 months),Familiar with basic syntax,No,"Solved it before, do not remember how I solved it","splitting the string into chars, iterating over the array, return the number if its one of the special combinations, and if its not to calculate the numbers.
+
+do the same only with a recursive function",Never seen it before,"a Recursive function that check if the next element is the the closing tag of the the current element, if not if its an opening tag or the wrong character.
+
+iterate through an array of chars and see if they are arranged correctly with a set of if statements
+
+first check if the first and last elements are an opening and closing tag of the same kind if so the iterate from both sides of the array and continue to check the pairs of elements if they are the correct ones.
+
+",No,No,"Yes, but I do not remember how it works anymore",No,"Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore",No,No,No,"Yes, and I remember how it works",B,A,B,A
+"I consent, begin the study",39,Male,35 to 44,High school / middelbare school,,No,,No,11+ years,11+ years,Have been using it for a while (>3 months),Highly proficient,Yes,"Solved it before, do not remember how I solved it","* Iterate over characters, keep track of previous characters and look up the values of each character. Retroactively subtract values if it is detected that the next character is of a higher value (this is the solution I chose).
+* The same solution as the one above, but by hand-coding all values in a switch statement or with if/else statements.
+* Take the first character. If the current character is lower than the next, subtract it from the value of the next character. Otherwise return its value and add the value to the integer value of the rest of the string as calculated recursively.
+* Make a list of all valid combinations: ""I"", ""IV"", ""V"", ""IIX"", ""IX"", ""X"", etc. with their corresponding values. Iteratively go through the input string and add all values.
+* Make a list of all valid combinations: ""I"", ""IV"", ""V"", ""IIX"", ""IX"", ""X"", etc. with their corresponding values. Recursively go through the input string and add all values.
+","Seen it before, but never solved it","* Iterate over characters, pushing the opening characters to a stack. When there is a closing character, pop the last item off the stack and compare to see if they match. If they don't, the input is invalid (chosen solution).
+* Find the first parenthesis. This must be an opening parenthesis. Then find the next matching closing parenthesis. If none was found then the string is invalid. Recursively check the string between these two and the string after these two to see if they are valid. If both are valid, the string is valid.
+* Find the first parenthesis. This must be an opening parenthesis. Then find the next matching closing parenthesis. If none was found then the string is invalid. Recursively check the string between these two. Then find the next opening parenthesis after the previously found closing parenthesis and iteratively continue, returning false when any substring was invalid.","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore",B,A,A,B
+"I consent, begin the study",40,Male,25 to 34,Master (MSc),,No,,No,1 to 3 years,Less than 1 year,Never used it,Familiar with basic syntax,No,"Solved it before, do not remember how I solved it","Write out all possible solutions and see which matches
+
+Use a bit method where you have either a 1 or 0. So that would mean making a distinction between III, II, I instead of using I multiple times.
+
+",Never seen it before,I've got nothing,No,"Yes, and I remember how it works",No,No,"Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore",No,No,No,"Yes, but I do not remember how it works anymore",A,B,A,B
+"I consent, begin the study",41,Female,25 to 34,Master (MSc),,No,,No,1 to 3 years,Less than 1 year,Never used it,Familiar with basic syntax,No,"Seen it before, but never solved it",Set what letters can be used as combinations. For each letter in roman number: check if current letter and next 2 letters can be a combination. create mapping.  ,"Solved it before, do not remember how I solved it","1. Add opening parentheses to the the list one by one, when first closing parentheses pops up compare it with the last in the list of opening parentheses. return false if they do not match. Else, continue.
+2. Compare as two Sets. Try to use Map key, value. ",No,No,"Yes, but I do not remember how it works anymore","Yes, and I remember how it works",No,"Yes, but I do not remember how it works anymore",No,No,No,No,No,A,B,A,B
+"I consent, begin the study",42,Male,25 to 34,Master (MSc),,Yes,,No,6 to 10 years,6 to 10 years,Tried it before,Highly proficient,No,"Solved it before, do not remember how I solved it","Iterate over the characters in the numeral, simply always adding the number value to the total. If the number you added is bigger than the ones before it, subtract the previous lower numbers from it again before continuing.
+
+Another solution would be to iterate and put all values in an array. When adding a number to an array, check if there are any numbers in the array of a lower value. If so, transform those numbers into their negative counterpart or move them to a separate ""negative"" array that you subtract in its entirety at the end of the iteration.",Never seen it before,"First step can be to count occurrences of each set of parentheses. If the amount of open/close characters don't match for each set then it is not valid. Then you still need to iterate over the entire string to check their position though.
+
+Another option could be to convert all open and close parentheses to their index in the string, then it could be easier to compare that a specific ""number"" must be closed at a specific order. 
+
+The most straightforward solution still seems to be to simply iterate over the string and putting each opening character in an array, checking that a parenthesis isn't closed after another has opened (unless that has also been closed).","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works",No,"Yes, but I do not remember how it works anymore",B,A,B,A
+"I consent, begin the study",43,Male,25 to 34,Master (MSc),,No,,No,1 to 3 years,Less than 1 year,Have been using it for a while (>3 months),Comfortable,No,"Solved it before, do not remember how I solved it","A looping series of switch cases to match strings matching numbers and then incrementing the result count and removing that part of the string.
+
+Similar to above but with if else statements.
+
+Bad solution: matching long list of key, value pairs for every number up to a certain value.
+
+Better: a for loop which evaluates each pair of letters in the numeral string and changes the result. With added case for the IIV exception. ","Seen it before, but never solved it","Looping through from start to end of the string until an invalid matching of brackets is found returns true if it reaches the end without failing. Could be a for or a while loop.
+
+Going through and deleting bracket pairs from the start and end of the string moving inwards until an invalid pair is detected. If you are left with only one character or a /&gt; then returns false.
+
+
+",No,No,"Yes, but I do not remember how it works anymore",No,"Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works",No,No,No,"Yes, but I do not remember how it works anymore",B,A,A,B
+"I consent, begin the study",44,Male,25 to 34,University for applied sciences / Hoger beroepsonderwijs (HBO)  - Bachelor (BSc),,No,,No,Less than 1 year,Less than 1 year,Never used it,Familiar with basic syntax,Yes,Never seen it before,"Convert string into array, create object with key value-pairs for every roman numeral and number, connect every numeral in the array to the number and use + to add up, return the integer.
+
+Write logic for when to add up and when not to, sometimes the function needs to add up and sometimes retract (?). Depends on the amount of numerals and the order (I can't be placed before C, for example).
+
+Write conditional for the dialect, so 8 is written as IIX in stead of VIII.",Never seen it before,"Convert the string into an array of characters and check if an opening parenthesis is properly closed with a closing tag.
+
+Check if the next character in the string is the same and return invalid if that's the case.
+
+
+Match all opening parenthesis with all closing parenthesis, so that a string like '(([]))' will become '()()[]'. If not closed properly, return false. In the case that it matches like this: '()()[]['.
+",No,No,No,"Yes, but I do not remember how it works anymore",No,"Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore",No,"Yes, but I do not remember how it works anymore",No,"Yes, but I do not remember how it works anymore",A,B,B,A
+"I consent, begin the study",45,Male,25 to 34,University for applied sciences / Hoger beroepsonderwijs (HBO)  - Bachelor (BSc),,No,,No,Less than 1 year,Less than 1 year,Tried it before,Little to no prior experience,Yes,Never seen it before,"1. (used in test) Case to split the integer and turn it into an array of strings, checking each digit to convert them into the correct numeral. Convert them back into an integer and write additional conditional statements to check for the additional principles.
+
+2. Write a loop to iterate a number from 1 until the given number, with another variable inside the loop that follows the numeral rules as the number increments.
+
+3. Use a modulo to divide the number by the biggest Roman value possible, and then again for the leftover numbers.",Never seen it before,"1. Define each parenthesis (open and close). For each string character passed, we push it into an array. If a set of parenthesis are the same type and next to each other in the correct order, we pop it; an empty array should confirm its validity
+
+2. Condition to check if the first element is the same type and correct order as the last element of the string. Remove the first/last elements and repeat. Return true unless a condition is not met","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore",No,No,No,No,A,B,A,B
+"I consent, begin the study",46,Male,25 to 34,University for applied sciences / Hoger beroepsonderwijs (HBO)  - Bachelor (BSc),,No,,No,1 to 3 years,Less than 1 year,Started using it recently (<3 months),Comfortable,No,"Solved it before, do not remember how I solved it","I would try to refactor by removing the 4, 9, 40, 90, 400, 900 key value pair from the object and instead write logic that catches a IIII and replaces it with a I but placed before a V or X.
+Then add OR conditions for XXXX and CCCC and so on. 
+Perhaps not even hardcoded but check if the length of the roman number is 4.
+
+I will keep the 8 as edge data key value pair in the object to make it clear for other developers reading my code. ",Never seen it before,"My next step was to group the brackets by type each in it's own array. After doing that I would iterate through the array's of array's and check with the openingBeforeClosing function if each array was validated. 
+
+I would need to also check if a bracket is repeated and store this in it's own array so each array would only have a pair of brackets. If an array only has 1 bracket then the validation returns false.
+
+Lastly when grouping the brackets I would take into account the unique ""/&gt;'"" closing bracket to see it as an individual. I might use regex for that or combine in the chars array the indexes when a ""/"" is next to a ""&gt;"". 
+","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore",No,"Yes, but I do not remember how it works anymore",No,No,No,No,"Yes, but I do not remember how it works anymore",B,A,B,A
+"I consent, begin the study",47,Male,35 to 44,Master (MSc),,Yes,,No,11+ years,11+ years,Tried it before,Comfortable,No,"Seen it before, but never solved it","- Hardcode all exceptions (ie. IV, IIX): instead of only hardcoding the separate characters (I, V, X, etc), also hard code the exceptions that should be possible (IV, IIX, IX, etc) and check if the substring starting at the current index of the length of each exception is included. Then increment by the length of the matched exception (note that exceptions need to be processed from longest to shortest (IIX, IX should be the order, not IX, IIX).
+
+- Go from back to front: speaks for itself. Instead of starting at the front and checking if the current number is lower than the next, do the opposite and start at the back and check if the next number is higher.
+
+- Don't look ahead a limited amount of positions, but also support ie IIIX: instead of supporting a limited amount of smaller characters in front of a larger character, support a flexible amount in front. Even though there shouldn't really be a case for it, since they're incorrect roman numerals, it would scale better than checking the next next next next character :)
+",Never seen it before,"- Use regular expression to check if the string is valid, by just making sure it matches the regular expression.
+
+- Use regular expressions to get the biggest match in the string. Then for each match recursively check with a regular expression within for the biggest match.
+
+- When matching the first starting character find the closing character from the end and if found check the part recursively if it's correct.
+
+- Write a compiler in Javascript for this language and execute the code. If it succeeds then it's valid, if there's a syntax error, it's not ;-)","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, and I remember how it works","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore","Yes, but I do not remember how it works anymore",B,A,A,B
